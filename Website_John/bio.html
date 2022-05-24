@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>John Lee | Biography </title>
+    <meta name="description" content="this is the description">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+    <header class="main_header">
+
+      <div id="navbar">
+
+        <a href="index.html" id="logo"> JL</a>
+
+       <div id="navbar-right">
+          <a href="index.html">Home</a>
+          <a href="bio.html">Biography</a>
+          <a href="research.html">Research</a>
+          <a href="publication.html">Publications</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+      </div>
+
+      <div class="back_image">
+        <img width=100% src="background.jpg" alt="">
+        <div class="bottom-left">Home</div>
+      </div>
+
+      <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "10px 10px";
+          document.getElementById("logo").style.fontSize = "20px";
+        } else {
+          document.getElementById("navbar").style.padding = "10px 10px";
+          document.getElementById("logo").style.fontSize = "25px";
+        }
+      }
+      </script>
+
+      <h1 class="name">About</h1>
+
+    </header>
+
+    <main>
+      <section class="content_section container_bio">
+        <h2 class = "section_header">About</h2>
+        <img src="Images/MyFace.jpg" alt="" width="80" class = "about_image">
+        <p>
+          This website is a portfolio of both my academic and professional life. I am originally from Brazil, but spent the majority of my life living abroad as an expat. I attended 4 years at the Bemment Middle school in Deerfield Massachusetts and another 4 years at Suffield Academy at Suffield Connecticut. Currently I am a 5th year at NYU Shanghai Double majoring in Data Science and Business and Finance. My interests in data science are predominantly in Financial applications.
+        </p>
+        
+        <p>
+          Some of the works in this website are targeted towards finance and data science. The data science content is mostly coded in Python, but the applications and strucutre could be implemented in different programming langauges. For furhter information about the projects, please contact me via my email in the resume bellow. Thank you.
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="Resume - Joao Ji Won Lee.pdf" target = '_blank'> 
+          <button class = "Resume_button" type="button" name="button">Resume</button>
+        </a>
+
+      </section>
+      
+    </main>
+
+    <footer class ="main_footer">
+      <div class="container main_footer_container">
+
+
+          <h3 class="name_footer ">Joao Ji Won Lee</h3>
+          <ul class="nav footer_nav">
+            <li>
+              <a href="https://www.linkedin.com/" target = '_blank'>
+                <img src="Image_footer/in.png" alt="" width="30">  </a></li>
+
+            <li>
+              <a href="https://www.facebook.com/" target = '_blank'>
+              <img src="Image_footer/fb.png" alt="" width="30"></a></li>
+
+            <li>
+              <a href="https://www.instagram.com/" target = '_blank'>
+              <img src="Image_footer/ins.jpg" alt="" width="30"></a></li>
+
+          </ul>
+      </div>
+    </footer>
+  </body>
+</html>
